@@ -16,8 +16,10 @@
             </div>
             <hr>
         </header>
-            <!-- Prima sezione con tabella -->
-            <main>
+           
+        <main>
+            <section> 
+                <!-- Prima sezione con tabella -->
                 <h3>Le mie spese</h3>
                 <table>
                     <thead>
@@ -47,14 +49,16 @@
                     </tbody>
         
                     <tfoot>
-                        <tr>
-                            <td>Totale</td>
-                            <td></td>
-                            <td>360&euro;</td>
+                        <tr>     <!-- Impone a totale di occupare 2 celle orizzontalmente, altrimenti avrei potuto usare "colrow" per quelle verticali -->
+                            <td colspan="2">Totale</td>
+                            <td>306&euro;</td>
                         </tr>
                     </tfoot>
                 </table>
                 <hr>
+            </section>
+
+            <section>
                 <!-- Seconda sezione con ul -->
                 <h3>Cose da fare</h3>
                 <ul>
@@ -64,6 +68,9 @@
                     <li>Mangiare il tipico Fish & Chips inglese &cross;</li>
                 </ul>
                 <hr>
+            </section>
+
+            <section>
                 <!-- Terza sezione con ol -->
                 <h3>Info utili:</h3>
                 <ol>
@@ -89,13 +96,15 @@
                     </li>
                 </ol>
                 <hr>
-            </main>
-             <footer>
+            </section>
+
+            <section>
                 <h2>Le foto</h2>
                 <div>
                     <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="">
                     <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n" alt="">
                 </div>
-            </footer>
+            </section>
+        </main>
     </body>
 </html>
